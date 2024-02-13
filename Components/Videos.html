@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;1,100&display=swap'); 
+        * {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+body {
+  margin-bottom: 3rem;
+  background-color:goldenrod
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  text-align: center;
+  color: black;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0.75em 0.25em;
+  line-height: 1.1em;
+}
+ul {
+  columns: 300px;
+  break-inside: avoid;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+}
+li {
+  list-style-type:none;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+          <h1>Why Nitte?</h1>
+        </header>
+        <ul>
+           
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=FqKPObV1eDs"><img src="../images/video1.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=1xVPgKk3TjU"><img src="../images/video2.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=5OprfZuZuS4"><img src="../images/video9.jpeg" height="210" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=X0zwj-5prQI"><img src="../images/video4.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=Za4whMOstz4"><img src="../images/video5.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=T38wtny4zJo"><img src="../images/video6.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=1l68etyft3Q"><img src="../images/video7.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=Op536sdHh8s"><img src="../images/video8.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=XCqBe4R-95o"><img src="../images/video3.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=KPpbQ-uhS3w"><img src="../images/video10.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=LqChesrEOeg"><img src="../images/video11.jpeg" /></a></li>
+          <li><a class="popup-youtube" href="https://www.youtube.com/watch?v=gd5ZlaJDAPM"><img src="../images/video12.jpeg" height="180"/></a></li>
+        </ul>
+
+      </main>
+      <script>
+        $(function() {
+            $('.popup-youtube, .popup-vimeo').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
+        </script>
+</body>
+</html>
